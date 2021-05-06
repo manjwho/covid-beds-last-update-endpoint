@@ -8,12 +8,12 @@ server.use(middlewares)
 
 server.get('/lastdate', (req, res) => {
   let last_updated_date = {};
-  fetch("https://spreadsheets.google.com/feeds/cells/1mMnpzNjMsDUYUCafG3oTCFMsIBeQsOICxKB_EBT273U/5/public/full?min-row=2&max-row=2&min-col=15&max-col=15&alt=json")
+  fetch("https://spreadsheets.google.com/feeds/cells/1mMnpzNjMsDUYUCafG3oTCFMsIBeQsOICxKB_EBT273U/5/public/full?min-row=1&max-row=1&min-col=3&max-col=3&alt=json")
     .then(response => response.json())
     .then(data => data.feed.entry[0].content.$t)
     .then(date => {
       last_updated_date["annotate"] = {};
-      last_updated_date["annotate"]["notes"] = `Last updated: ${date}`;
+      last_updated_date["annotate"]["notes"] = `${date}`;
       // console.log(JSON.stringify(data["date"]));
       // return data;
       res.jsonp(last_updated_date);
