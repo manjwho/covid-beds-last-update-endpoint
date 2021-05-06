@@ -21,7 +21,7 @@ server.get('/lastdate', (req, res) => {
 })
 
 server.use(router)
-server.listen('port', process.env.PORT || 3000, () => {
+server.listen(process.env.PORT || 3000, () => {
 // server.listen(3000, () => {
   console.log('JSON Server is running')
 })
