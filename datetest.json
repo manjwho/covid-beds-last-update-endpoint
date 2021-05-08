@@ -1,5 +1,24 @@
 {
-  "annotate": {
-    "notes": "Last Update: 6-May-2021"
+  "describe": {
+    "intro": "<a style ="color:grey;">Updated <u>6 May 2021</u>. Data may be delayed or partial. Please verify with the hospital. </a>
+
+<br><br><br>
+<a style="margin-bottom:-4px; display:block; color:grey"> 
+	Total No. of Beds Available:
+	</a>
+<br> 
+<div style="width=100vw; display:flexbox; justify-content:space-evenly;>
+	<tr> 
+	<a style="font-size:15px; background-color: black; color:white; border-radius:5px; padding:0px 7px; border: 1px solid black;"> 
+		<big> <b> 3119 </b> Total </a> 
+	<a style="font-size:15px; border: 1px solid grey; margin-left: 7px; color:grey; border-radius:5px; padding:0px 7px;"> 
+		<b>3225 </b> General  </a> 
+	<a style="font-size:15px; border: 1px solid grey; margin-left: 7px; color:grey; border-radius:5px; padding:0px 7px;">
+		<b>-87</b> HDU </a>
+	<a style="font-size:15px; border: 1px solid grey; margin: 7px; color:grey; border-radius:5px; padding:0px 7px;"> <b> -11 </b> ICU </a> 
+	<a style="font-size:15px; border: 1px solid grey; color:grey; border-radius:5px; padding:0px 7px;"> 
+		<b> -8 </b>Ventilator </a> 
+</div> 
+<br><br><br>"
   }
 }
